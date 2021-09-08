@@ -9,5 +9,5 @@ jobs:
       - run: echo "This is a NGINX webServer" 
       - setup_remote_docker
       - run:
-        name: Build Image 
-        command: docker build -t nginx-myweb .
+         name: Build Image 
+         command: docker build -t nginx-myweb .
