@@ -10,4 +10,4 @@ jobs:
       - setup_remote_docker
       - run:
         name: Build Image 
-        command: docker build -t nginx-web .
+        command: docker build -t nginx-myweb .
